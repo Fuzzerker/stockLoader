@@ -1,2 +1,2 @@
-COPY stockloader /
-ENTRYPOINT ["./stockloader"]
+COPY stockLoader /
+ENTRYPOINT ["./stockLoader"]
