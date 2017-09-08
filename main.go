@@ -49,7 +49,7 @@ func getStocksFromUrl(url string, source string) []Stock {
 }
 
 func putInMongo(stocks []Stock) {
-	session, err := mgo.Dial("mongodb://localhost:27017")
+	session, err := mgo.Dial("mongodb://mongo:27017")
 	if err != nil {
 		panic(err)
 	}
